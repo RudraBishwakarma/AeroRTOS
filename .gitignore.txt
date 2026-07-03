@@ -1,0 +1,54 @@
+# ===============================
+# AeroRTOS .gitignore
+# ===============================
+
+# Build Output
+/build/
+*.o
+*.obj
+*.d
+*.exe
+*.elf
+*.map
+*.a
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime Logs
+*.log
+
+# Generated Telemetry
+*.csv
+
+# Temporary Files
+*.tmp
+*.bak
+temp/
+tmp/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Mission Planner / Flight Logs
+*.tlog
+*.bin
+
+# Test Output
+test_*
+
+# Generated Documentation
+doxygen_output/
+
+# Optional Local Configuration
+.env

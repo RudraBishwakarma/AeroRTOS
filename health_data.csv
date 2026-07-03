@@ -1,0 +1,2 @@
+timestamp,cpu_usage,battery_voltage,battery_remaining,deadline_misses,task_count
+3,58.00,12.60,100.00,0,9
