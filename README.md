@@ -230,43 +230,11 @@ Scheduler Started
 
 ---
 
-# Project Structure
-
-```text
-AeroRTOS
-│
-├── kernel/
-│
-├── estimation/
-│
-├── flight_controller/
-│
-├── communication/
-│
-├── middleware/
-│
-├── profiling/
-│
-├── safety/
-│
-├── simulation/
-│
-├── tools/
-│
-├── logs/
-│
-├── build/
-│
-├── Makefile
-│
-└── README.md
-```
-
----
 
 # Building
 
 ```bash
+make clean
 make
 ```
 
